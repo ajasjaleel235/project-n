@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    position: static;
+}
+
+.welcome-icons-head{
+    background-color: #00a373;
+    height: 2%;
+    width: 100%;
+}
+
+.welcome-icons-div-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-text{
+    color: white;
+    padding: 10px 20%;
+    font-size: 10px;
+    font-weight: 100;
+}
+
+.icons-social-media{
+    color: white;
+    text-align: right;
+    font-size: large;
+    margin: 0 15%;
+    padding: 10px 0;
+}
+
+.icons-social-media a{
+    color: inherit;
+    text-decoration: none;
+    margin-right: 2%;
+}
+
+.welcome{
+    width: 100%;
+}
+
+.icons{
+    width: 100%;
+}
+
+/* NAVIGATION BAR */
+
+.navi{
+    background-color: aliceblue;
+    height: 5%;
+    width: 100%;
+       
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-img{
+    width: 100%;
+}
+
+.nav-img img{
+    height: 80px;
+    width: 100px;
+    margin: 10px;
+}
+
+.nav-link{
+    width: 100%;
+}
+
+.nav-link ul li a{
+    text-decoration: none; 
+    color: black;
+}
+
+.nav-link ul{
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+
+}
+
+.nav-link ul li{
+    width: 100px;
+    margin: 15px;
+    padding: 12px;
+}
+
+
+.sub-menu-media ul{
+    display: none;
+}
+
+.nav-link ul li:hover .sub-menu-media ul{
+    display: block;
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    background-color: aliceblue;
+}
+
+.sub-menu-media ul li:hover{
+    background-color: rgb(160, 183, 203);
+    transition: 1s;
+}
+
+/* Background */
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(199, 197, 197, 0.1),rgba(0, 0, 0, 0.3)),url(Images/backgroung-img.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*Institutions*/
+
+.institution{
+    width: 100%;
+    height: 95vh;
+    color: white;
+    background-color: #111111;
+}
+
+.institution h1{
+    position: static;
+    padding: 8% 0 0 15%;
+    max-width: 100%;
+}
+
+.institution hr{
+    height: 1%;
+    width: 10%;
+    background-color: #00a373;
+    position: relative;
+    top: 1%;
+    left: 15%;
+}
+
+/*About Us*/
+
+.about{
+    width: 100%;
+    height: 80vh;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+.about h1{
+    position: static;
+    padding: 5% 0 0 15%;
+    max-width: 100%;
+}
+
+.about hr{
+    height: 1%;
+    width: 10%;
+    background-color: #00a373;
+    position: relative;
+    top: 1%;
+    left: 15%;
+}
+
+
+
+/*Testimonials*/
+
+.testimonials{
+    width: 100%;
+    height: 70vh;
+    color: rgb(0, 0, 0);
+    background-color: rgb(215, 213, 213);
+}
+
+.testimonials h1{
+    position: relative;
+    top: 10%;
+    text-align: center;
+}
+
+.testimonials hr{
+    height: 1%;
+    width: 10%;
+    background-color: #00a373;
+    position: relative;
+    top: 12%;
+    margin: 0 auto;
+}
+
+/*contact*/
+
+.Contact{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.loc{
+    margin: 10px;
+}
+
+/* Footer*/
+
+.foot{
+    background-color: #222222;
+    width: 100%;
+    height: 60vh;
+}
+
+.main-part img{
+    width: 200px;
+    height: 160;
+    color: white;
+}
+
+.foot-img{
+    padding: 45px 0 0 20px;
+}
